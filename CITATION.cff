@@ -7,6 +7,10 @@ authors:
     given-names: "Rob"
     affiliation: "OuterSpaceTrip.com"
 license: CC-BY-4.0
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21876742
+    description: "Concept DOI — resolves to the latest archived version"
 url: "https://outerspacetrip.com/guides/space-tourism-price-index/"
 repository-code: "https://github.com/outerspacetrip/space-tourism-price-dataset"
 abstract: >-

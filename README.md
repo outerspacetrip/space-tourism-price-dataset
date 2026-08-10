@@ -1,5 +1,7 @@
 # Space Tourism Price Dataset
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21876742.svg)](https://doi.org/10.5281/zenodo.21876742)
+
 Machine-readable datasets behind OuterSpaceTrip.com's
 [Space Tourism Price Index](https://outerspacetrip.com/guides/space-tourism-price-index/) —
 commercial human-spaceflight seat prices, operator status, and the passenger flight
@@ -37,6 +39,9 @@ facts. Reuse freely with attribution:
 **"OuterSpaceTrip.com Space Tourism Price Index"**, linked to
 <https://outerspacetrip.com/guides/space-tourism-price-index/>.
 See `LICENSE` and `CITATION.cff`.
+
+Citable archive: DOI **[10.5281/zenodo.21876742](https://doi.org/10.5281/zenodo.21876742)**
+(Zenodo; the archive gains a new version DOI with each tagged release).
 
 ## Scope (by design)
 
