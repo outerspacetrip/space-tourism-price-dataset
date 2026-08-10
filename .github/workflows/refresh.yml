@@ -1,0 +1,34 @@
+# Weekly mirror of the canonical dataset files from the live site. Runs Monday
+# 19:00 UTC — after outerspacetrip.com's Monday price re-verification has
+# deployed, so the mirror picks up the fresh week.
+# Self-contained: uses the data repo's own GITHUB_TOKEN, no cross-repo secrets.
+name: Refresh datasets from live site
+on:
+  schedule:
+    - cron: "0 19 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pull latest datasets
+        run: |
+          set -e
+          curl -fsS -o space-tourism-prices.json https://outerspacetrip.com/space-tourism-prices.json
+          curl -fsS -o space-tourism-flights.json https://outerspacetrip.com/space-tourism-flights.json
+          # Refuse to commit anything that isn't valid JSON (e.g. an error page)
+          python3 -c "import json; json.load(open('space-tourism-prices.json')); json.load(open('space-tourism-flights.json'))"
+      - name: Commit if changed
+        run: |
+          git config user.name "outerspacetrip"
+          git config user.email "admin@outerspacetrip.com"
+          git add space-tourism-prices.json space-tourism-flights.json
+          if git diff --cached --quiet; then
+            echo "No changes this week"
+          else
+            git commit -m "Weekly refresh from outerspacetrip.com ($(date -u +%F))"
+            git push
+          fi

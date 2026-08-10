@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it and link back to the source."
+title: "OuterSpaceTrip.com Space Tourism Price Index & Flight Log"
+type: dataset
+authors:
+  - family-names: "Crotzer"
+    given-names: "Rob"
+    affiliation: "OuterSpaceTrip.com"
+license: CC-BY-4.0
+url: "https://outerspacetrip.com/guides/space-tourism-price-index/"
+repository-code: "https://github.com/outerspacetrip/space-tourism-price-dataset"
+abstract: >-
+  Commercial human-spaceflight seat prices and operator status (2001-present)
+  plus the commercial passenger flight log, compiled and re-verified weekly on
+  OuterSpaceTrip.com. Every row carries its own source and date.
