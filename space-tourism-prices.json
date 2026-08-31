@@ -9,7 +9,7 @@
   "attribution": "Compiled by Outer Space Trip (outerspacetrip.com)",
   "currency": "USD",
   "basis": "Per seat unless noted. Lunar and Mars figures are projections, not quotes.",
-  "last_verified": "2026-08-24",
+  "last_verified": "2026-08-31",
   "operators": [
     {
       "operator": "World View",
@@ -28,7 +28,7 @@
       "status_note": "World View missed its 2024 commercial launch target and was acquired by Ondas Inc. (a defense and industrial technology company) on April 1, 2026. Under new ownership, World View is pivoting toward defense and intelligence-surveillance-reconnaissance (ISR) missions; no new commercial passenger launch date has been announced. Its $50,000 fare and $500-per-seat deposit are still published on a checkout page, but that page is no longer linked from the site&rsquo;s navigation — which now leads entirely with Ondas Sentinel ISR work — and the deposit form was returning errors as of August 2026.",
       "source_label": "worldview.space / Ondas IR",
       "source_url": "https://worldview.space/",
-      "verified": "2026-08-24"
+      "verified": "2026-08-31"
     },
     {
       "operator": "Space Perspective",
@@ -47,7 +47,7 @@
       "status_note": "Space Perspective never operated a single crewed passenger flight. The company furloughed most staff in January 2025, was evicted from its Florida spaceport in April 2025, and was acquired by Spain's Eos X Space in July 2025 — voiding all prior reservations. It is rebooting under new ownership with ticket sales currently on hold. $125,000 was the last publicly listed fare; new pricing under Eos X Space has not been confirmed by a primary or top-tier source.",
       "source_label": "Space.com / Eos X Space acquisition",
       "source_url": "https://www.space.com/space-exploration/private-spaceflight/troubled-balloon-tourism-pioneer-space-perspective-bought-by-spanish-company",
-      "verified": "2026-08-24"
+      "verified": "2026-08-31"
     },
     {
       "operator": "Zephalto",
@@ -66,7 +66,7 @@
       "status_note": "French luxury balloon startup targeting first public flights in 2026, lifting passengers to 25 km in its pressurized C&eacute;leste capsule for a six-hour flight (1.5&nbsp;h ascent, 3&nbsp;h at altitude, 1.5&nbsp;h descent) with fine dining and panoramic views. Two capsule configurations are offered: 4 passengers with 1 pilot, or 6 passengers with 2 pilots. Tickets are on sale at &euro;180,000 per guest (~$195,000, cancellation insurance included), up from &euro;170,000 previously; a 20% deposit is due at booking. Partnered with France's national space agency, CNES.",
       "source_label": "zephalto.com (FAQ)",
       "source_url": "https://zephalto.com/faq",
-      "verified": "2026-08-24"
+      "verified": "2026-08-31"
     },
     {
       "operator": "Halo Space",
@@ -85,7 +85,7 @@
       "status_note": "Spanish balloon-tourism startup that unveiled its Aurora capsule design in April 2024 with a starting price of $164,000 per seat for a roughly six-hour flight to about 35 km carrying eight passengers. Halo Space has completed five uncrewed test flights (2022&ndash;2023); a 2024 Saudi Arabia test was scrubbed by an equipment failure. The company's own site now targets its next test series (Flights 07&ndash;10) for late 2026 and crewed test flights for late 2027, with commercial bookings not yet open and no newer live price confirmed beyond the 2024 announcement.",
       "source_label": "halospaceflight.com",
       "source_url": "https://www.halospaceflight.com/",
-      "verified": "2026-08-24"
+      "verified": "2026-08-31"
     },
     {
       "operator": "Blue Origin",
@@ -105,7 +105,7 @@
       "status_note": "NS-38 (January 22, 2026) was New Shepard's last tourist flight. On January 30, 2026, Blue Origin announced a pause of at least two years to concentrate resources on the Blue Moon lunar lander program for NASA. The price range shown reflects the most recently reported per-seat figures from the active program.",
       "source_label": "Blue Origin Newsroom",
       "source_url": "https://www.blueorigin.com/news/new-shepard-to-pause-flights",
-      "verified": "2026-08-24"
+      "verified": "2026-08-31"
     },
     {
       "operator": "Virgin Galactic",
@@ -124,7 +124,7 @@
       "status_note": "Virgin Galactic is between fleets: VSS Unity is retired from commercial service but resumed non-commercial glide flights above Spaceport America on May 27, 2026 to train pilots and ops teams as a proxy for the new Delta-class spaceplane. On August 12, 2026, alongside its Q2 results, Virgin Galactic moved the first Delta-class commercial spaceflight from Q4 2026 to February 2027; CEO Michael Colglazier attributed the slip to avionics and systems-installation work, saying no single issue drove it but hundreds of small installation tasks each ran long. The flight test phase is set to open with a captive-carry flight in October 2026, and a second Delta ship is targeted for commercial service in Q2 2027. Seats at $750,000 (up from the prior $600,000 fare) were oversubscribed and booked out ahead of schedule; the company expects to release a new tranche at higher price points in the fall of 2026.",
       "source_label": "Virgin Galactic IR",
       "source_url": "https://investors.virgingalactic.com/news/news-details/2026/Virgin-Galactic-Announces-Second-Quarter-2026-Financial-Results-and-Provides-Business-Update/default.aspx",
-      "verified": "2026-08-24"
+      "verified": "2026-08-31"
     },
     {
       "operator": "Deep Blue Aerospace",
@@ -143,7 +143,7 @@
       "status_note": "Chinese startup Deep Blue Aerospace presold its first two suborbital tickets in an October 2024 Taobao livestream at 1.5 million yuan (~$210,000) per seat, for a reusable six-passenger crew capsule reaching 100&ndash;150 km altitude with roughly five minutes of weightlessness. The company is running uncrewed test flights through 2026, with commercial suborbital tourism targeted to begin in 2027; no paying passenger has flown yet.",
       "source_label": "SpaceNews / Space.com",
       "source_url": "https://spacenews.com/chinas-deep-blue-aerospace-reveals-suborbital-tourism-plans/",
-      "verified": "2026-08-24"
+      "verified": "2026-08-31"
     },
     {
       "operator": "InterstellOr",
@@ -163,7 +163,7 @@
       "status_note": "Beijing-based startup InterstellOr (Chinese: Chuanweizhe) is preselling seats on its planned CYZ1 suborbital capsule — up to six passengers, per the company&rsquo;s own spec page (early press reports said seven) — at 3 million yuan (~$430,000) per seat, with about 20 people already signed up including actor Johnny Huang Jingyu. The capsule targets the ~100&nbsp;km Kármán line for 3&ndash;6 minutes of weightlessness on a 20&ndash;30 minute flight. InterstellOr passed a 2024 feasibility review and completed a landing-cushioning system test in January 2026; no crewed or uncrewed flight has occurred yet, with a first crewed mission targeted for 2028.",
       "source_label": "CGTN / en.interstellor.com",
       "source_url": "https://news.cgtn.com/news/2026-01-23/Chinese-startup-targets-2028-crewed-suborbital-space-tourism-1KaTAlWS65y/p.html",
-      "verified": "2026-08-22"
+      "verified": "2026-08-31"
     },
     {
       "operator": "Vast Space",
@@ -180,7 +180,7 @@
       "status_note": "Haven-1, Vast&rsquo;s commercial space station, is targeting a Q1 2027 launch after delays from the original 2026 target; a July 2026 progress update confirms the schedule remains on track following completion of key integration and testing milestones. NASA selected Vast for its sixth private astronaut mission to the ISS (NET summer 2027, announced February 2026). France and the UK have signed agreements for seats. Vast closed a $500 million funding round in March 2026 ($300M Series A equity plus $200M debt, led by Balerion Space Ventures). The first crewed station mission (Vast-1) follows Haven-1&rsquo;s launch and has an announced crew member, ESA reserve astronaut Arnaud Prost. No public per-seat fare; seats are sold by direct inquiry at fly@vastspace.com.",
       "source_label": "vastspace.com (Haven-1) / NASASpaceFlight.com",
       "source_url": "https://www.vastspace.com/haven-1",
-      "verified": "2026-08-24"
+      "verified": "2026-08-31"
     },
     {
       "operator": "Space Adventures",
@@ -197,7 +197,7 @@
       "status_note": "Space Adventures has no active orbital tourism bookings: its Soyuz-to-ISS program has been dormant since its last tourist flight in 2021, with seat availability constrained as Russia winds down ISS participation.",
       "source_label": "spaceadventures.com",
       "source_url": "https://spaceadventures.com/",
-      "verified": "2026-08-24"
+      "verified": "2026-08-31"
     },
     {
       "operator": "Axiom Space",
@@ -216,7 +216,7 @@
       "status_note": "Ax-4 launched June 2025 and returned after 18 days aboard the ISS. NASA selected Axiom Space for Ax-5 in January 2026, targeting launch no earlier than January 2027. The ~$55 million per-seat figure derives from Ax-1 (2022) reporting; Axiom does not publish current pricing publicly.",
       "source_label": "NASA / axiomspace.com",
       "source_url": "https://www.nasa.gov/news-release/nasa-selects-axiom-space-for-fifth-private-mission-to-space-station/",
-      "verified": "2026-08-24"
+      "verified": "2026-08-31"
     },
     {
       "operator": "SpaceX",
@@ -233,7 +233,7 @@
       "method": "reported",
       "source_label": "SpaceX / Space.com",
       "source_url": "https://www.spacex.com/human-spaceflight/",
-      "verified": "2026-08-24"
+      "verified": "2026-08-31"
     }
   ],
   "tiers": [
