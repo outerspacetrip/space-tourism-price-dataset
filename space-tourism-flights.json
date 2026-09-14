@@ -1,13 +1,13 @@
 {
   "name": "Space Tourism Flight Timeline",
-  "description": "A dated, sourced record of space tourism and private-astronaut spaceflight. Blue Origin's New Shepard program is logged in full through its January 2026 pause; every other operator is curated to its firsts, records, and turning points. Verified against original reporting and maintained by Outer Space Trip.",
+  "description": "A dated, sourced record of every crewed commercial or private spaceflight that carried a private participant, 2001 to date, plus SpaceShipOne's three 2004 flights. Each flight carries a verified head count: people aboard and the operator's own crew among them. Verified against original reporting and maintained by Outer Space Trip.",
   "publisher": "Outer Space Trip",
   "url": "https://outerspacetrip.com/guides/space-tourism-timeline/",
   "license": "CC BY 4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
   "license_note": "CC BY 4.0 applies to this compilation (its selection, arrangement, dating, and maintenance). The underlying facts are public record; each flight carries its own source.",
   "attribution": "Compiled by Outer Space Trip (outerspacetrip.com)",
-  "basis": "A dated, sourced record of space tourism and private-astronaut spaceflight. Blue Origin's New Shepard program is logged in full — every crewed flight from NS-16 through its January 2026 pause — now that the program has a defined end point to close the book on. Every other operator is still curated to the flights that were a genuine first, a record, or a turning point, since Space Adventures, Virgin Galactic, SpaceX, and Axiom Space each fly far less often. See the source link on each row.",
+  "basis": "A dated, sourced record of every crewed commercial or private spaceflight that carried a private participant — a paying customer, sponsored guest, private-mission crew member, or research passenger on a commercial seat — plus SpaceShipOne's three privately funded 2004 spaceflights. Complete for Blue Origin's New Shepard (every crewed flight from NS-16 through its January 2026 pause), every Virgin Galactic flight with cabin occupants, every SpaceX private free-flyer, every Axiom mission, and every Space Adventures Soyuz seat. Government crews on government missions are not logged. Each flight carries `people` (everyone aboard) and `crew` (the operator's own employees and the professional crew flying the vehicle), verified flight by flight on 2026-09-09; passengers = people − crew. Head counts added 2026-09-09.",
   "flights": [
     {
       "date": "2001-04-28",
@@ -16,7 +16,20 @@
       "type": "Orbital",
       "milestone": "The first private citizen to buy his way to space — eight days in orbit, six of them docked at the ISS, for a reported $20 million.",
       "source_label": "Space.com",
-      "source_url": "https://www.space.com/11492-space-tourism-pioneer-dennis-tito.html"
+      "source_url": "https://www.space.com/11492-space-tourism-pioneer-dennis-tito.html",
+      "people": 3,
+      "crew": 2
+    },
+    {
+      "date": "2002-04-25",
+      "mission": "Mark Shuttleworth — Soyuz TM-34",
+      "operator": "Space Adventures / Roscosmos",
+      "type": "Orbital",
+      "milestone": "The second paying orbital passenger and the first from Africa: a ten-day flight to the ISS, with ESA's Roberto Vittori as flight engineer alongside commander Yuri Gidzenko.",
+      "source_label": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Soyuz_TM-34",
+      "people": 3,
+      "crew": 2
     },
     {
       "date": "2004-06-21",
@@ -25,7 +38,42 @@
       "type": "Suborbital",
       "milestone": "The flight that started it all: pilot Mike Melvill took the privately built SpaceShipOne past 100 km over Mojave, the first crewed spaceflight funded and flown without a government. That October it won the $10 million Ansari X Prize, and its design was licensed to Virgin Galactic — the seed of the entire commercial suborbital industry.",
       "source_label": "Smithsonian National Air and Space Museum",
-      "source_url": "https://airandspace.si.edu/collection-objects/scaled-composites-spaceshipone/nasm_A20050459000"
+      "source_url": "https://airandspace.si.edu/collection-objects/scaled-composites-spaceshipone/nasm_A20050459000",
+      "people": 1,
+      "crew": 1
+    },
+    {
+      "date": "2004-09-29",
+      "mission": "SpaceShipOne flight 16P",
+      "operator": "Scaled Composites / Mojave Aerospace Ventures",
+      "type": "Suborbital",
+      "milestone": "The first of the two X Prize flights: Mike Melvill flew alone, with 180 kg of ballast standing in for the two passengers the prize rules required a vehicle to be able to carry.",
+      "source_label": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/SpaceShipOne_flight_16P",
+      "people": 1,
+      "crew": 1
+    },
+    {
+      "date": "2004-10-04",
+      "mission": "SpaceShipOne flight 17P — the X Prize is won",
+      "operator": "Scaled Composites / Mojave Aerospace Ventures",
+      "type": "Suborbital",
+      "milestone": "Brian Binnie's flight five days later claimed the $10 million Ansari X Prize and set an altitude record for a winged vehicle. Pilot only: the FAA restricted the flight to no passengers.",
+      "source_label": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/SpaceShipOne_flight_17P",
+      "people": 1,
+      "crew": 1
+    },
+    {
+      "date": "2005-10-01",
+      "mission": "Gregory Olsen — Soyuz TMA-7",
+      "operator": "Space Adventures / Roscosmos",
+      "type": "Orbital",
+      "milestone": "The third self-funded orbital passenger, a scientist and entrepreneur who ran his own experiments aboard the ISS, flying with commander Valery Tokarev and NASA's William McArthur.",
+      "source_label": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Soyuz_TMA-7",
+      "people": 3,
+      "crew": 2
     },
     {
       "date": "2006-09-18",
@@ -34,7 +82,42 @@
       "type": "Orbital",
       "milestone": "The first woman to pay her own way to space, and the first person of Iranian descent to fly — she trained as a backup and was elevated to the prime crew after the original flyer was medically disqualified.",
       "source_label": "Britannica",
-      "source_url": "https://www.britannica.com/money/Anousheh-Ansari"
+      "source_url": "https://www.britannica.com/money/Anousheh-Ansari",
+      "people": 3,
+      "crew": 2
+    },
+    {
+      "date": "2007-04-07",
+      "mission": "Charles Simonyi — Soyuz TMA-10",
+      "operator": "Space Adventures / Roscosmos",
+      "type": "Orbital",
+      "milestone": "The software architect's first flight to the ISS, with commander Oleg Kotov and flight engineer Fyodor Yurchikhin.",
+      "source_label": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Soyuz_TMA-10",
+      "people": 3,
+      "crew": 2
+    },
+    {
+      "date": "2008-10-12",
+      "mission": "Richard Garriott — Soyuz TMA-13",
+      "operator": "Space Adventures / Roscosmos",
+      "type": "Orbital",
+      "milestone": "The first second-generation space traveller: Garriott's father, Owen, flew on Skylab. Commander Yury Lonchakov and NASA's Michael Fincke completed the crew.",
+      "source_label": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Soyuz_TMA-13",
+      "people": 3,
+      "crew": 2
+    },
+    {
+      "date": "2009-03-26",
+      "mission": "Charles Simonyi — Soyuz TMA-14",
+      "operator": "Space Adventures / Roscosmos",
+      "type": "Orbital",
+      "milestone": "The only person to buy an orbital seat twice, flying with commander Gennady Padalka and NASA's Michael Barratt; the last Space Adventures Soyuz seat before Laliberté's later that year.",
+      "source_label": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Soyuz_TMA-14",
+      "people": 3,
+      "crew": 2
     },
     {
       "date": "2009-09-30",
@@ -43,7 +126,9 @@
       "type": "Orbital",
       "milestone": "The seventh and, for over a decade, the last Space Adventures tourist to fly — NASA's shuttle retirement absorbed the remaining Soyuz seats for its own astronauts.",
       "source_label": "Phys.org",
-      "source_url": "https://phys.org/news/2009-09-canadian-circus-billionaire-space-station.html"
+      "source_url": "https://phys.org/news/2009-09-canadian-circus-billionaire-space-station.html",
+      "people": 3,
+      "crew": 2
     },
     {
       "date": "2021-07-11",
@@ -52,7 +137,9 @@
       "type": "Suborbital",
       "milestone": "The first fully crewed VSS Unity spaceflight, with the company's founder aboard — about four minutes of weightlessness at 86 km before a runway landing.",
       "source_label": "Space.com",
-      "source_url": "https://www.space.com/virgin-galactic-unity-22-branson-flight-success"
+      "source_url": "https://www.space.com/virgin-galactic-unity-22-branson-flight-success",
+      "people": 6,
+      "crew": 5
     },
     {
       "date": "2021-07-20",
@@ -61,7 +148,9 @@
       "type": "Suborbital",
       "milestone": "New Shepard's first crewed flight. Funk, 82, and Daemen, 18, became the oldest and youngest people to reach space at the time.",
       "source_label": "The Washington Post",
-      "source_url": "https://www.washingtonpost.com/technology/2021/07/20/bezos-space-flight-live-updates-video/"
+      "source_url": "https://www.washingtonpost.com/technology/2021/07/20/bezos-space-flight-live-updates-video/",
+      "people": 4,
+      "crew": 0
     },
     {
       "date": "2021-09-16",
@@ -70,7 +159,9 @@
       "type": "Orbital",
       "milestone": "The first all-civilian crew to reach orbit — no professional astronauts aboard — spending three days circling Earth on a Crew Dragon with no ISS docking.",
       "source_label": "The Washington Post",
-      "source_url": "https://www.washingtonpost.com/technology/2021/09/15/spacex-launch-civilian-flight/"
+      "source_url": "https://www.washingtonpost.com/technology/2021/09/15/spacex-launch-civilian-flight/",
+      "people": 4,
+      "crew": 0
     },
     {
       "date": "2021-10-13",
@@ -79,7 +170,9 @@
       "type": "Suborbital",
       "milestone": "At 90, Star Trek's William Shatner became the oldest person to reach space, breaking the record Wally Funk had set three months earlier on NS-16 — and holding it until Ed Dwight surpassed him on NS-25 in 2024.",
       "source_label": "Blue Origin",
-      "source_url": "https://www.blueorigin.com/news/new-shepard-ns-18-mission-updates"
+      "source_url": "https://www.blueorigin.com/news/new-shepard-ns-18-mission-updates",
+      "people": 4,
+      "crew": 1
     },
     {
       "date": "2021-12-08",
@@ -88,7 +181,9 @@
       "type": "Orbital",
       "milestone": "The old model's brief return: Japanese entrepreneur Yusaku Maezawa and Yozo Hirano flew a 12-day visit to the ISS aboard a Russian Soyuz, commanded by cosmonaut Alexander Misurkin and brokered by Space Adventures &mdash; the company's first tourist flight since 2009, and the last Soyuz-brokered tourist trip before private Crew Dragon missions took over orbital tourism a few months later.",
       "source_label": "NASASpaceflight",
-      "source_url": "https://www.nasaspaceflight.com/2021/12/soyuz-ms-20-tourist-launch/"
+      "source_url": "https://www.nasaspaceflight.com/2021/12/soyuz-ms-20-tourist-launch/",
+      "people": 3,
+      "crew": 1
     },
     {
       "date": "2021-12-11",
@@ -97,7 +192,9 @@
       "type": "Suborbital",
       "milestone": "Alan Shepard's daughter Laura Shepard Churchley flew aboard the rocket named for her father, and crewmates Lane Bess and his son Cameron became the first parent and child to fly to space together.",
       "source_label": "Blue Origin",
-      "source_url": "https://www.blueorigin.com/news/new-shepard-ns-19-mission-updates"
+      "source_url": "https://www.blueorigin.com/news/new-shepard-ns-19-mission-updates",
+      "people": 6,
+      "crew": 0
     },
     {
       "date": "2022-03-31",
@@ -106,7 +203,9 @@
       "type": "Suborbital",
       "milestone": "Marc and Sharon Hagle became the first married couple to fly to space together on a commercial vehicle.",
       "source_label": "Blue Origin",
-      "source_url": "https://www.blueorigin.com/news/ns-20-mission-updates"
+      "source_url": "https://www.blueorigin.com/news/ns-20-mission-updates",
+      "people": 6,
+      "crew": 1
     },
     {
       "date": "2022-04-08",
@@ -115,7 +214,9 @@
       "type": "Orbital",
       "milestone": "The first fully private crewed mission to the ISS, a reported $55 million per seat — 17 days on orbit for a four-person crew.",
       "source_label": "Space.com",
-      "source_url": "https://www.space.com/ax-1-axiom-space-station-mission"
+      "source_url": "https://www.space.com/ax-1-axiom-space-station-mission",
+      "people": 4,
+      "crew": 1
     },
     {
       "date": "2022-06-04",
@@ -124,7 +225,9 @@
       "type": "Suborbital",
       "milestone": "Katya Echazarreta became the first Mexican-born woman to reach space, and crewmate Victor Vescovo completed the \"Explorers' Extreme Trifecta\" — the ocean's deepest point, Everest's summit, and now space.",
       "source_label": "Blue Origin",
-      "source_url": "https://www.blueorigin.com/news/ns-21-mission-updates"
+      "source_url": "https://www.blueorigin.com/news/ns-21-mission-updates",
+      "people": 6,
+      "crew": 0
     },
     {
       "date": "2022-08-04",
@@ -133,7 +236,9 @@
       "type": "Suborbital",
       "milestone": "Sara Sabry became the first Egyptian in space and crewmate Mário Ferreira the first Portuguese, while Vanessa O'Brien became the first woman to complete the Explorers' Extreme Trifecta.",
       "source_label": "Blue Origin",
-      "source_url": "https://www.blueorigin.com/news/ns-22-mission-updates"
+      "source_url": "https://www.blueorigin.com/news/ns-22-mission-updates",
+      "people": 6,
+      "crew": 0
     },
     {
       "date": "2023-05-21",
@@ -142,7 +247,9 @@
       "type": "Orbital",
       "milestone": "Rayyanah Barnawi became the first Saudi woman to reach space, flying alongside fellow Saudi Ali AlQarni and commander Peggy Whitson on an eight-day ISS stay.",
       "source_label": "Space.com",
-      "source_url": "https://www.space.com/first-saudi-arabian-woman-space-spacex-ax-2"
+      "source_url": "https://www.space.com/first-saudi-arabian-woman-space-spacex-ax-2",
+      "people": 4,
+      "crew": 1
     },
     {
       "date": "2023-06-29",
@@ -151,7 +258,9 @@
       "type": "Suborbital",
       "milestone": "Virgin Galactic's first commercial spaceflight after two decades of development — paying research passengers, not test pilots, aboard VSS Unity.",
       "source_label": "SpaceNews",
-      "source_url": "https://spacenews.com/virgin-galactic-announces-galactic-01-crew-onboard-the-first-commercial-spaceflight/"
+      "source_url": "https://spacenews.com/virgin-galactic-announces-galactic-01-crew-onboard-the-first-commercial-spaceflight/",
+      "people": 6,
+      "crew": 3
     },
     {
       "date": "2023-08-10",
@@ -160,7 +269,9 @@
       "type": "Suborbital",
       "milestone": "Keisha Schahaff and her teenage daughter Anastatia Mayers became the first Caribbean-nation astronauts and the first mother-daughter pair to fly to space together, with Mayers the youngest person to reach space at the time.",
       "source_label": "Space.com",
-      "source_url": "https://www.space.com/virgin-galactic-galactic02-launch-success"
+      "source_url": "https://www.space.com/virgin-galactic-galactic02-launch-success",
+      "people": 6,
+      "crew": 3
     },
     {
       "date": "2023-09-08",
@@ -169,7 +280,9 @@
       "type": "Suborbital",
       "milestone": "South Africa-born conservationist Timothy Nash carried two fossils of ancient human relatives — Australopithecus sediba and Homo naledi — to the edge of space, a first that drew sharp criticism from paleoanthropologists who called it a stunt. His crewmates were among Virgin Galactic's earliest ticket buyers, having waited close to two decades to fly.",
       "source_label": "News24",
-      "source_url": "https://www.news24.com/citypress/news/south-african-ancient-human-relatives-travel-into-space-with-virgin-galactic-20230912"
+      "source_url": "https://www.news24.com/citypress/news/south-african-ancient-human-relatives-travel-into-space-with-virgin-galactic-20230912",
+      "people": 6,
+      "crew": 3
     },
     {
       "date": "2023-10-06",
@@ -178,7 +291,9 @@
       "type": "Suborbital",
       "milestone": "Namira Salim became the first Pakistani to reach space, having already been the first Pakistani to stand at both the North and South Poles.",
       "source_label": "Space.com",
-      "source_url": "https://www.space.com/virgin-galactic-first-pakistani-space-galactic04"
+      "source_url": "https://www.space.com/virgin-galactic-first-pakistani-space-galactic04",
+      "people": 6,
+      "crew": 3
     },
     {
       "date": "2023-11-02",
@@ -187,7 +302,9 @@
       "type": "Suborbital",
       "milestone": "Virgin Galactic's first flight dedicated to research rather than tourism. Planetary scientist Alan Stern — principal investigator of NASA's New Horizons Pluto mission — flew as a NASA-funded researcher training for future science flights, alongside bioastronautics researcher Kellie Gerardi, who ran fluid-physics and biomedical experiments and wore the first continuous glucose monitor flown to space.",
       "source_label": "Space.com",
-      "source_url": "https://www.space.com/virgin-galactic-05-mission-success-stern-gerardi"
+      "source_url": "https://www.space.com/virgin-galactic-05-mission-success-stern-gerardi",
+      "people": 6,
+      "crew": 3
     },
     {
       "date": "2024-01-18",
@@ -196,7 +313,9 @@
       "type": "Orbital",
       "milestone": "Alper Gezeravcı became the first Turkish astronaut, part of a multinational crew alongside Italy's Walter Villadei and Sweden's Marcus Wandt on a 21-day ISS mission.",
       "source_label": "NASASpaceFlight.com",
-      "source_url": "https://www.nasaspaceflight.com/2024/01/axiom-3-multinational-crew/"
+      "source_url": "https://www.nasaspaceflight.com/2024/01/axiom-3-multinational-crew/",
+      "people": 4,
+      "crew": 1
     },
     {
       "date": "2024-01-26",
@@ -205,7 +324,9 @@
       "type": "Suborbital",
       "milestone": "Lina Borozdina, born in Odesa and living in Nevada, became the first Ukrainian woman to reach space. It was also the first VSS Unity flight to carry no company astronaut instructor — four private passengers and two pilots — a sign Virgin Galactic had settled into a routine cadence.",
       "source_label": "Space.com",
-      "source_url": "https://www.space.com/virgin-galactic-06-suborbital-spaceflight-mission"
+      "source_url": "https://www.space.com/virgin-galactic-06-suborbital-spaceflight-mission",
+      "people": 6,
+      "crew": 2
     },
     {
       "date": "2024-05-19",
@@ -214,7 +335,9 @@
       "type": "Suborbital",
       "milestone": "New Shepard's first crewed flight in nearly two years, after a September 2022 booster failure on an uncrewed research flight grounded the program. At 90, Ed Dwight — chosen by President Kennedy in 1961 as the first Black astronaut candidate but never flown by NASA — finally reached space, and at 90 years and eight months became the oldest person ever to do so, breaking William Shatner's 2021 record.",
       "source_label": "Blue Origin",
-      "source_url": "https://www.blueorigin.com/news/ns-25-mission-updates"
+      "source_url": "https://www.blueorigin.com/news/ns-25-mission-updates",
+      "people": 6,
+      "crew": 0
     },
     {
       "date": "2024-06-08",
@@ -223,7 +346,9 @@
       "type": "Suborbital",
       "milestone": "The final commercial flight of VSS Unity, the SpaceShipTwo that flew all seven of Virgin Galactic's commercial missions. Turkish researcher Tuva Cihangir Atasever flew a suite of his country's microgravity experiments on the way out. The company then grounded flights to build its larger Delta-class ships, aiming to return to service in 2026.",
       "source_label": "Space.com",
-      "source_url": "https://www.space.com/virgin-galactic-07-final-vss-unity-commercial-spaceflight"
+      "source_url": "https://www.space.com/virgin-galactic-07-final-vss-unity-commercial-spaceflight",
+      "people": 6,
+      "crew": 2
     },
     {
       "date": "2024-08-29",
@@ -232,7 +357,9 @@
       "type": "Suborbital",
       "milestone": "NASA-funded plant biologist Rob Ferl personally ran his own gene-expression experiment in flight, the first researcher to conduct his own onboard experiment on a crewed suborbital mission.",
       "source_label": "Blue Origin",
-      "source_url": "https://www.blueorigin.com/news/new-shepard-ns-26-mission"
+      "source_url": "https://www.blueorigin.com/news/new-shepard-ns-26-mission",
+      "people": 6,
+      "crew": 0
     },
     {
       "date": "2024-09-10",
@@ -241,7 +368,9 @@
       "type": "Orbital",
       "milestone": "The first private spacewalk, and the highest crewed Earth orbit since the Apollo program — an elliptical path reaching 1,400 km.",
       "source_label": "Space.com",
-      "source_url": "https://www.space.com/spacex-polaris-dawn-first-private-spacewalk"
+      "source_url": "https://www.space.com/spacex-polaris-dawn-first-private-spacewalk",
+      "people": 4,
+      "crew": 2
     },
     {
       "date": "2024-11-22",
@@ -250,7 +379,9 @@
       "type": "Suborbital",
       "milestone": "Marc and Sharon Hagle flew together for a second time, becoming the first repeat married couple on New Shepard after their NS-20 flight two years earlier.",
       "source_label": "Blue Origin",
-      "source_url": "https://www.blueorigin.com/news/new-shepard-ns-28-mission"
+      "source_url": "https://www.blueorigin.com/news/new-shepard-ns-28-mission",
+      "people": 6,
+      "crew": 0
     },
     {
       "date": "2025-02-25",
@@ -259,7 +390,9 @@
       "type": "Suborbital",
       "milestone": "Lane Bess returned to space for a second flight, three years after flying alongside his son on NS-19.",
       "source_label": "Blue Origin",
-      "source_url": "https://www.blueorigin.com/news/new-shepard-ns-30-mission"
+      "source_url": "https://www.blueorigin.com/news/new-shepard-ns-30-mission",
+      "people": 6,
+      "crew": 0
     },
     {
       "date": "2025-03-31",
@@ -268,7 +401,9 @@
       "type": "Orbital",
       "milestone": "The first crewed polar-orbit spaceflight — an all-civilian crew circled both of Earth's poles, something no human spaceflight had done before.",
       "source_label": "Space.com",
-      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-private-fram2-astronauts-on-historic-spaceflight-over-earths-poles"
+      "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-private-fram2-astronauts-on-historic-spaceflight-over-earths-poles",
+      "people": 4,
+      "crew": 0
     },
     {
       "date": "2025-04-14",
@@ -277,7 +412,9 @@
       "type": "Suborbital",
       "milestone": "The first all-female spaceflight since Valentina Tereshkova flew solo in 1963, and the most-watched New Shepard flight to date.",
       "source_label": "CNBC",
-      "source_url": "https://www.cnbc.com/2025/04/14/blue-origin-launches-an-all-female-celebrity-crew-with-katy-perry-gayle-king-and-lauren-sanchez.html"
+      "source_url": "https://www.cnbc.com/2025/04/14/blue-origin-launches-an-all-female-celebrity-crew-with-katy-perry-gayle-king-and-lauren-sanchez.html",
+      "people": 6,
+      "crew": 0
     },
     {
       "date": "2025-05-31",
@@ -286,7 +423,9 @@
       "type": "Suborbital",
       "milestone": "New Zealand entrepreneur Mark Rocket became the first New Zealander to reach space.",
       "source_label": "Blue Origin",
-      "source_url": "https://www.blueorigin.com/news/new-shepard-ns-32-mission"
+      "source_url": "https://www.blueorigin.com/news/new-shepard-ns-32-mission",
+      "people": 6,
+      "crew": 0
     },
     {
       "date": "2025-06-25",
@@ -295,7 +434,9 @@
       "type": "Orbital",
       "milestone": "The first ISS spaceflight for India in over 40 years, and the first ever for Hungary and Poland — an 18-day stay carrying three government-sponsored astronauts.",
       "source_label": "Axiom Space",
-      "source_url": "https://www.axiomspace.com/mission-blog/ax4-launches"
+      "source_url": "https://www.axiomspace.com/mission-blog/ax4-launches",
+      "people": 4,
+      "crew": 1
     },
     {
       "date": "2025-06-29",
@@ -304,7 +445,9 @@
       "type": "Suborbital",
       "milestone": "A six-passenger commercial flight carrying private individuals, part of New Shepard's routine 2025 cadence — no single record broken, but logged here for completeness.",
       "source_label": "Blue Origin",
-      "source_url": "https://www.blueorigin.com/news/new-shepard-ns-33-mission"
+      "source_url": "https://www.blueorigin.com/news/new-shepard-ns-33-mission",
+      "people": 6,
+      "crew": 0
     },
     {
       "date": "2025-08-03",
@@ -313,7 +456,9 @@
       "type": "Suborbital",
       "milestone": "Tron founder Justin Sun flew four years after winning, and then not using, Blue Origin's first public-auction seat in 2021.",
       "source_label": "Blue Origin",
-      "source_url": "https://www.blueorigin.com/news/new-shepard-ns-34-mission"
+      "source_url": "https://www.blueorigin.com/news/new-shepard-ns-34-mission",
+      "people": 6,
+      "crew": 0
     },
     {
       "date": "2025-10-08",
@@ -322,7 +467,9 @@
       "type": "Suborbital",
       "milestone": "A six-passenger commercial flight, part of New Shepard's routine cadence in the months before the program's January 2026 pause — logged here for completeness.",
       "source_label": "Blue Origin",
-      "source_url": "https://www.blueorigin.com/news/new-shepard-ns-36-mission"
+      "source_url": "https://www.blueorigin.com/news/new-shepard-ns-36-mission",
+      "people": 6,
+      "crew": 0
     },
     {
       "date": "2025-12-20",
@@ -331,7 +478,9 @@
       "type": "Suborbital",
       "milestone": "European aerospace engineer Michaela Benthaus, a wheelchair user since a 2018 spinal cord injury, became the first wheelchair user to fly above the Kármán line.",
       "source_label": "Space.com",
-      "source_url": "https://www.space.com/space-exploration/private-spaceflight/watch-blue-origin-launch-1st-wheelchair-user-to-space-on-dec-18"
+      "source_url": "https://www.space.com/space-exploration/private-spaceflight/watch-blue-origin-launch-1st-wheelchair-user-to-space-on-dec-18",
+      "people": 6,
+      "crew": 0
     },
     {
       "date": "2026-01-22",
@@ -340,7 +489,9 @@
       "type": "Suborbital",
       "milestone": "New Shepard's last crewed flight before Blue Origin paused the program on January 30, 2026 for at least two years to focus on its Blue Moon lunar lander — closing out New Shepard's tourism run at 17 crewed flights since 2021.",
       "source_label": "TechCrunch",
-      "source_url": "https://techcrunch.com/2026/01/30/blue-origin-pauses-space-tourism-flights-to-focus-on-the-moon/"
+      "source_url": "https://techcrunch.com/2026/01/30/blue-origin-pauses-space-tourism-flights-to-focus-on-the-moon/",
+      "people": 6,
+      "crew": 1
     }
   ]
 }
